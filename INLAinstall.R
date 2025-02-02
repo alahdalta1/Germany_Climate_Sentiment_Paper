@@ -1,0 +1,6 @@
+library(devtools)
+Sys.setenv(PATH = paste("C:\\rtools43\\usr\\bin", Sys.getenv("PATH"), sep=";"))
+Sys.setenv(BINPREF = "C:\\rtools43\\x86_64-w64-mingw32.static.posix\\bin")
+Sys.which("cp")
+install.packages("INLA",repos=c(getOption("repos"),INLA="https://inla.r-inla-download.org/R/stable"),dep=TRUE,type="source")
+install.packages("INLA",repos=c(getOption("repos"),INLA="https://inla.r-inla-download.org/R/testing"), dep=TRUE)
