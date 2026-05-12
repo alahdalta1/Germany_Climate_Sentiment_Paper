@@ -33,7 +33,7 @@ This protocol is based on the following published research articles:
 - `import_data.R` — Data ingestion utilities.
 - `main.R`, `run.R` — Top-level analysis drivers.
 - `testrBase.R`, `testrLastAggregate.R` — Sentiment aggregation pipelines.
-- `check_240811.R`, `check_bym.R`, `check_bym2.R` — INLA model fitting
+- `fit_inla_bym_model.R`, `fit_inla_iid_model.R`, `check_bym2.R` — INLA model fitting
   (Poisson GAM, BYM/BYM2 spatial structures, fused lasso temporal effects).
 - `functions_general.R`, `functions_plotting.R` — Helper functions.
 
